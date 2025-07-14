@@ -1,0 +1,33 @@
+#border {
+    border-radius: 50%;
+    border: 4px solid #3acafa;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+#head {
+    background: linear-gradient(120deg, #bb2efd, #3acafa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    letter-spacing: 1.5px;
+}
+
+.lead {
+    font-size: 1.25rem;
+    color: #555;
+}
+
+.btn-primary {
+    background-color: #3acafa;
+    border: none;
+}
+
+.btn-outline-secondary {
+    border: 2px solid #3acafa;
+    color: #3acafa;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #3acafa;
+    color: #fff;
+}
